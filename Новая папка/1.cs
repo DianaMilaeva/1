@@ -1,25 +1,41 @@
-﻿/*
 // Класс-родитель базовый класс для классов Cat и Dog
-class Animal (string Name, string Type, int Age)
+class Animal(string name, string type, int age)
 {
-    public string Name { get; set; } = Name;
-    public string Type { get; set; } = Type;
-    public int Age { get; set; } = Age;
+    public string Name { get; set; } = name;  
+    public string Type { get; set; } = type;  
+    public int Age { get; set; } = age;
 
-    public void MakeSound() { Console.WriteLine($"Животное {Name} издает звук"); }
+    // virtual — разрешаем переопределять
+    public virtual void MakeSound()   
+    {
+        Console.WriteLine($"Животное {Name} издает звук");
+    }
 }
-// Класс-наследник производственный класс для класса Animal
-class Cat(string Name, string Type, int Age) : Animal(Name, Type, Age) { }
-class Dog(string Name, string Type, int Age) : Animal(Name, Type, Age) { }
+// Классы-наследники
+class Cat(string name, string type, int age) : Animal(name, type, age)
+{
+    // Переопределяем метод для кошки
+    public override void MakeSound()
+    {
+        Console.WriteLine($"Кошка {Name} говорит: Мяу");
+    }
+}
+
+class Dog(string name, string type, int age) : Animal(name, type, age)
+{
+    // Переопределяем метод для собаки
+    public override void MakeSound()
+    {
+        Console.WriteLine($"Собака {Name} говорит: Гав");
+    }
+}
 class Program
 {
     static void Main(string[] args)
     {
         var dog = new Dog("Бобик", "Дворняга", 5);
         var cat = new Cat("Пушок", "Каштан", 4);
-        dog.MakeSound();
-        cat.MakeSound();
+        dog.MakeSound();  
+        cat.MakeSound();  
     }
 }
-*/
-
