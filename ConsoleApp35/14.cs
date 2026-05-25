@@ -1,4 +1,3 @@
-﻿/*
 struct Point
 {
     private int _x;
@@ -33,4 +32,3 @@ class Program
         p2.Show();
     }
 }
-*/
