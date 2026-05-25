@@ -1,4 +1,3 @@
-﻿/*
 class Book
 {
     private string _title;
@@ -29,4 +28,3 @@ class Program
         Console.WriteLine($"{book2.Title} - {book2.Author}");
     }
 }
-*/
