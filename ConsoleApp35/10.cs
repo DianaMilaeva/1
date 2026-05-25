@@ -1,4 +1,3 @@
-﻿/*
 class Employee
 {
     public virtual void Work()
@@ -21,4 +20,3 @@ class Program
         programmer.Work();
     }
 }
-*/
