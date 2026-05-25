@@ -1,4 +1,3 @@
-﻿/*
 interface IReadable
 {
     void Read();
@@ -28,4 +27,3 @@ class Program
         notebook.Write();
     }
 }
-*/
