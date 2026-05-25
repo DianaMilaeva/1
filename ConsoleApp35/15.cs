@@ -1,4 +1,3 @@
-﻿/*
 class RefBox
 {
     public int Value;
@@ -24,4 +23,4 @@ class Program
         Console.WriteLine($"Struct: {valBox.Value}");
         Console.WriteLine($"Class: {refBox.Value}");
     }
-}*/
+}
