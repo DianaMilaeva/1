@@ -1,4 +1,3 @@
-﻿/*
 interface IPrintable
 {
     void Print();
@@ -27,4 +26,3 @@ class Program
         photo.Print();
     }
 }
-*/
