@@ -1,4 +1,3 @@
-﻿/*
 class Person(string name, int age)
 {
     public void Introduce()
@@ -14,4 +13,3 @@ class Program
         person.Introduce();
     }
 }
-*/
