@@ -1,4 +1,3 @@
-﻿/*
 class Rectangle
 {
     private int _width;
@@ -34,4 +33,3 @@ class Program
         Console.WriteLine($"{rectangle.Width} x {rectangle.Height}");
     }
 }
-*/
