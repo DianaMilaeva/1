@@ -1,4 +1,3 @@
-﻿/*
 abstract class Figure
 {
     public abstract double GetPerimeter();
@@ -43,4 +42,3 @@ class Program
         triangle.GetPerimeter(); 
     }
 }
-*/
