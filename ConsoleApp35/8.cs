@@ -1,5 +1,4 @@
-﻿/*
-class Vehicle
+﻿class Vehicle
 {
     private int _speed;
     public int Speed
@@ -33,4 +32,3 @@ class Program
         Console.WriteLine($"Скорость: {car.Speed}, Марка: {car.Brand}");
     }
 }
-*/
