@@ -1,4 +1,3 @@
-﻿/*
 class Transport
 {
     public string Name { get; set; }
@@ -66,4 +65,4 @@ class Program
         bike.Move();
         bike.RingBell();
     }
-}*/
+}
