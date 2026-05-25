@@ -1,4 +1,3 @@
-﻿/*
 struct Coordinate
 {
     public int X {  get; set; }
@@ -30,4 +29,4 @@ class Program
         player.Move(6, 3);
         Console.WriteLine($"X: {player.position.X}, Y: {player.position.Y}");
     }
-}*/
+}
