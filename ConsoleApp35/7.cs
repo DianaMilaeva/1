@@ -1,4 +1,3 @@
-﻿/*
 class Animal
 {
     public void Eat()
@@ -22,4 +21,3 @@ class Program
         cat.Meow();
     }
 }
-*/
