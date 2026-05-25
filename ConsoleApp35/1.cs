@@ -1,4 +1,3 @@
-﻿/*
 class Dog
 {
     private string _name;
@@ -31,4 +30,3 @@ class Program
         dog.Bark();
     }
 }
-*/
