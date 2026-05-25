@@ -1,4 +1,3 @@
-﻿/*
 class BankAccount
 {
     private decimal balance;
@@ -20,4 +19,3 @@ class Program
         account.Withdraw(100);
     }
 }
-*/
