@@ -1,4 +1,3 @@
-﻿/*
 class Student 
 {
     public string Name { get; set; }
@@ -17,4 +16,3 @@ class Program
         Console.WriteLine($"Имя: {student.Name} Оценка: {student.Grade}");
     }
 }
-*/
