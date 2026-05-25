@@ -1,5 +1,4 @@
-﻿/*
-class Product
+﻿class Product
 {
     private string _name;
     private decimal _price;
@@ -27,4 +26,3 @@ class Program
         Product product2 = new Product("Телефон", 50000);
     }
 }
-*/
