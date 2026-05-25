@@ -1,4 +1,3 @@
-﻿/*
 class Shape
 {
     public virtual double Area()
@@ -40,4 +39,3 @@ class Program
         Console.WriteLine(square.Area());
     }
 }
-*/
