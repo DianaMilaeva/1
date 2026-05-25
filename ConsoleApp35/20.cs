@@ -1,4 +1,3 @@
-﻿/*
 class MathHelper
 {
     public int Sum(int a, int b)
@@ -24,4 +23,3 @@ class Program
         Console.WriteLine(mathHelper.Sum(10.6, 8.9));
     }
 }
-*/
