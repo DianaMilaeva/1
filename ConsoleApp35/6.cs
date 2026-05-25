@@ -1,4 +1,3 @@
-﻿/*
 class User
 {
     private string _password;
@@ -28,4 +27,3 @@ class Program
         else Console.WriteLine("Пароль неверный");
     }
 }
-*/
