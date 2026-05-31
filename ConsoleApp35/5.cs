@@ -9,6 +9,10 @@ class BankAccount
     {
         if (amount > 0 && amount <= balance) balance -= amount;
     }
+    public decimal GetBalance()
+    {
+        return _balance;
+    }
 }
 class Program
 {
@@ -17,5 +21,6 @@ class Program
         BankAccount account = new BankAccount();
         account.Deposit(1000);
         account.Withdraw(100);
+        Console.WriteLine(account.GetBalance());
     }
 }
